@@ -1,5 +1,5 @@
 import { createServer } from 'http';
-import { app } from './backend/app.js';
+import { app } from './app.js';
 import debug from 'debug';
 
 const normalizePort = val => {

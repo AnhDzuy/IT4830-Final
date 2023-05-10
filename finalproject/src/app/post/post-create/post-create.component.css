@@ -1,0 +1,17 @@
+mat-card {
+  width: 80%;
+  margin: auto;
+}
+
+mat-form-field, form, input,
+textarea {
+  width: 100%;
+}
+/* Set the width of the submit button to 50%, add a 10px margin, and center it vertically under the text area. */
+button {
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+mat-card,
+mat-expansion-panel {
+  width: 80%;
+  margin: auto;
+}
+
+mat-form-field, form,
+textarea {
+  width: 100;
+}

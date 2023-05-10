@@ -47,3 +47,27 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 #listdiv {
   margin-bottom: 100px;
 }
+
+.weatherWrap {
+  margin: 15px;
+}
+
+.weatherWrap input {
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.weatherWrap button {
+  margin-left: 10px;
+  height: 25px;
+}
+
+#image {
+  margin: 10px;
+  width: auto;
+}
+
+#output {
+  background-color: white;
+  padding: 20px;
+}

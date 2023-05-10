@@ -2,7 +2,7 @@
 <script>
   function getweather(){
     var city=document.getElementById("search").value;
-    fetch("http://api.weatherstack.com/current?access_key=2e67ddb608d0f7d5e5213848ead4f0b4&query="+city+"&units=f")
+    fetch("https://api.weatherstack.com/current?access_key=2e67ddb608d0f7d5e5213848ead4f0b4&query="+city+"&units=f")
     .then(a=>a.json())
     .then(response => {
       document.getElementById("image").src = response.current.weather_icons[0];
@@ -18,7 +18,10 @@
   }
 
 </script>
+
+<div class="weatherWrap">
 <input placeholder = "City/Zip" id="search">
 <button onclick="getweather()">Get Weather!</button><br>
 <img id="image"/>
 <div id="output"></div>
+</div>
